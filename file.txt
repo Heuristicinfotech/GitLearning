@@ -1,0 +1,59 @@
+mmit, working tree clean
+PS D:\IPC Data\Learning Space\Learning> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IPC Data\Learning Space\Learning> 
+PS D:\IPC Data\Learning Space\Learning> git add                    
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+PS D:\IPC Data\Learning Space\Learning> git add .
+PS D:\IPC Data\Learning Space\Learning> git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+PS D:\IPC Data\Learning Space\Learning> git restore --staged .\index.html
+PS D:\IPC Data\Learning Space\Learning> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\IPC Data\Learning Space\Learning> git restore .
+PS D:\IPC Data\Learning Space\Learning> git status   
+On branch master
+nothing to commit, working tree clean
+PS D:\IPC Data\Learning Space\Learning> git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        notes.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS D:\IPC Data\Learning Space\Learning> git restore .
+PS D:\IPC Data\Learning Space\Learning> git status   
+On branch master
+nothing to commit, working tree clean
+PS D:\IPC Data\Learning Space\Learning> 
+ *  History restored 
+
+PS D:\IPC Data\Learning Space\Learning> cl
+cl : The term 'cl' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
+a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ cl
++ ~~
+    + CategoryInfo          : ObjectNotFound: (cl:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\IPC Data\Learning Space\Learning> 
