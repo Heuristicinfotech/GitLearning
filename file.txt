@@ -46,14 +46,3 @@ On branch master
 nothing to commit, working tree clean
 PS D:\IPC Data\Learning Space\Learning> 
  *  History restored 
-
-PS D:\IPC Data\Learning Space\Learning> cl
-cl : The term 'cl' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if 
-a path was included, verify that the path is correct and try again.
-At line:1 char:1
-+ cl
-+ ~~
-    + CategoryInfo          : ObjectNotFound: (cl:String) [], CommandNotFoundException
-    + FullyQualifiedErrorId : CommandNotFoundException
-
-PS D:\IPC Data\Learning Space\Learning> 
